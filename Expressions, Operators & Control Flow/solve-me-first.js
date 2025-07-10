@@ -1,14 +1,12 @@
 /**
- * Simple Array Sum
+ * Solve Me First
+ * --------------
+ * Reads two integers and returns their sum.
  */
-function simpleArraySum(ar) {
-  let sum = 0;
-  // Loop through each element and accumulate
-  for (let num of ar) {
-    sum += num;
-  }
-  return sum;
+function solveMeFirst(a, b) {
+  // Simply use the + operator for addition
+  return a + b;
 }
 
 // Example usage:
-console.log(simpleArraySum([1, 2, 3, 4, 10, 11])); // 31
+console.log(solveMeFirst(2, 3)); // 5
